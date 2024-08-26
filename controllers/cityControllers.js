@@ -36,6 +36,7 @@ exports.updateCity=async(req,res)=>{
 exports.deleteCity=async (req,res)=>{
     try {
         const city=await City.findByIdAndDelete(req.params.id);
+        res.status(200).json({message:'city deleted successfully'})
         if(!city){
             return res.status(404).json({message:'city not found'})
         }
