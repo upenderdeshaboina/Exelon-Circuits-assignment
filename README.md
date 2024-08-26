@@ -7,10 +7,10 @@
         cd <project-directory>
         npm install
 
-##2. start server
+## 2. start server
     npm start
 
-##3. API checking with postman
+## 3. API checking with postman
    1. Add city
       1. End Point: POST /api/cities
       2. Description: Adds a new city to the database
