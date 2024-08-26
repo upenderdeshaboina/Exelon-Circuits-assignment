@@ -26,7 +26,7 @@ exports.updateCity=async(req,res)=>{
         if (!city){
             return res.status(404).json({message:'City not found'})
         }
-        res.staus(200).json({message:'city updated successfully',city})
+        res.status(200).json({message:'city updated successfully',city})
     } catch (error) {
         res.status(400).json({error:error.message})
     }
