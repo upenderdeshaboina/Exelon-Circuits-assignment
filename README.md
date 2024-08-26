@@ -8,7 +8,7 @@
         npm install
 
 ##2. start server
-  npm start
+    npm start
 
 ##3. API checking with postman
    1. Add city
